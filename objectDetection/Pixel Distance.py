@@ -2,15 +2,13 @@ import cv2
 import math
 from ultralytics import YOLO
 
-# Load YOLO model
-model = YOLO("yolov8n.pt")  # Pre-trained model
+model = YOLO("yolov8n.pt")
 
-# Perform detection
 img = cv2.imread('test.jpg')
-results = model('test.jpg')  # Replace with your image/video path
+results = model('test.jpg') 
 
 # Extract bounding boxes
-detections = results[0].boxes  # First result (image)
+detections = results[0].boxes
 
 cars = []
 humans = []
