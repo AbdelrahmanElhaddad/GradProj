@@ -1,0 +1,2 @@
+Very general and theoritical video on Multiview Geometry/Stereo Vision and depth estimation
+https://www.youtube.com/watch?v=KOSS24P3_fY&ab_channel=NicolaiNielsen
